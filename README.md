@@ -2,7 +2,9 @@
 
 ## About Muscle
 
-Bundle created for developers working mainly Angular, NodeJS with Express, Twitter Bootstrap and JQuery. Muscle wires those technologies together based upon best practices. It has been created to get you up and running within seconds providing lightweight and transparent application structure. 
+Bundle created for developers working mainly Angular, NodeJS with Express, Twitter Bootstrap and JQuery. 
+
+Muscle wires those technologies together based upon best practices. It has been created to get you up and running within seconds providing lightweight and transparent application structure. 
 
 ### "Starter Pack" repository
 
@@ -12,16 +14,17 @@ This repository contains seed file structure and code providing massive advantag
 
 Here is list of links to all resources this bundle is utilizing with current published version.
 
- - [Angular](https://github.com/angular/angular.js)
- - [NodeJS](https://github.com/joyent/node)
- - [Twitter Bootstrap](http://twitter.github.io/bootstrap/)
- - [JQuery](https://github.com/jquery/jquery)
- - [EJS](https://github.com/visionmedia/ejs)
+* [Angular](https://github.com/angular/angular.js)
+* [NodeJS](https://github.com/joyent/node)
+* [Express](http://expressjs.com/)
+* [Twitter Bootstrap](http://twitter.github.io/bootstrap/)
+* [JQuery](https://github.com/jquery/jquery)
+* [EJS](https://github.com/visionmedia/ejs)
 
 
 ### Additional notes
 
-Depending on personal preferences or project requirement you might want to use [Angular UI](http://angular-ui.github.io/) to get even more reusable modules; or perhaps [UI Bootstrap](http://angular-ui.github.io/bootstrap/) to remove dependency on JQuery for UI components. Both of those projects will allow you to create custom build that suits just your need. 
+Depending on personal preferences or project requirement you might want to use [Angular UI](http://angular-ui.github.io/) to get even more reusable modules; or perhaps [UI Bootstrap](http://angular-ui.github.io/bootstrap/) to remove dependency on JQuery for UI components. Both of those projects will allow you to create custom build that suits just your need.
 
 Also just bear in mind that EJS templates has been used as those seem to be closest to native HTML. Aim was to make project more universal for everyone and especially for those who are not familiar with Jade or Mustache.
 
@@ -44,19 +47,21 @@ Install all dependecies
     npm install
 
 Start application
-
-    node app.js
-    
-## What next? 
-### Hack Hack Hack!
-
+	
+	node app.js
 
 **Tip:** Running application with nodemon will automatically reload any changes you make your code.
 
     nodemon app.js
 
-## Some more useful resources
+    
+## What next? 
+### Hack Hack Hack!
 
+## Some more useful resources
+( user / repo )
+
+* [flatiron / nconf](https://github.com/flatiron/nconf)
 * [bnoguchi / everyauth](https://github.com/bnoguchi/everyauth)
 * [tenorviol / node-facebook-sdk](https://github.com/tenorviol/node-facebook-sdk)
 * [ttezel / twit](https://github.com/ttezel/twit)
