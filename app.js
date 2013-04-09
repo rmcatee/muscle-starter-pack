@@ -4,6 +4,7 @@ var
     , routes    = require('./routes')
     , user      = require('./routes/user')
     , content   = require('./routes/content')
+    , error    = require('./error')
     , path      = require('path')
 
 // assign variables
@@ -23,6 +24,10 @@ app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
+// muscle middleware
+app.use(error.err404);
+app.use(error.err500);
+
 // development only
 if ('development' == app.get('env')) {
     app.use(express.errorHandler());
@@ -32,6 +37,10 @@ if ('development' == app.get('env')) {
 app.get('/', routes.index);
 app.get('/user', user.info);
 app.get('/page/about', content.about);
+
+app.get('/403', error.test403);
+app.get('/404', error.test404);
+app.get('/500', error.test500);
 
 // application start
 app.listen(app.get('port'), function(){
