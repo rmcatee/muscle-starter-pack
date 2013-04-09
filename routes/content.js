@@ -1,6 +1,6 @@
 /*
-* GET home page.
+* GET users listing
 */
-exports.index = function(req, res){
+exports.about = function(req, res){
     res.render('layout', { title: 'Welcome to "Starter Pack"' });
 };

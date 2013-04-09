@@ -12,12 +12,12 @@ This repository contains seed file structure and code providing massive advantag
 
 ### Muscle stack
 
-Here is list of links to all resources this bundle is utilizing with current published version.
+Here is list of all resources with used version that have been utilized in current bundle along with links to code of those resources.
 
 * [Angular](https://github.com/angular/angular.js)
-* [NodeJS](https://github.com/joyent/node)
+* [NodeJS](https://github.com/joyent/node)  ( 3.1.1 )
 * [Express](http://expressjs.com/)
-* [Twitter Bootstrap](http://twitter.github.io/bootstrap/)
+* [Twitter Bootstrap](http://twitter.github.io/bootstrap/) ( 2.3.1 )
 * [JQuery](https://github.com/jquery/jquery)
 * [EJS](https://github.com/visionmedia/ejs)
 

@@ -1,6 +1,6 @@
 /*
 * GET users listing
 */
-exports.list = function(req, res){
-    res.send("respond with a resource");
+exports.info = function(req, res){
+    res.render('layout', { title: 'Hello visitor!' });
 };
