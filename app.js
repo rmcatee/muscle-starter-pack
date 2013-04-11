@@ -1,10 +1,10 @@
 var
 // load module dependencies
       express     = require('express')
-    , routes    = require('./routes')
-    , user      = require('./routes/user')
-    , content   = require('./routes/content')
-    , error    = require('./error')
+    , routes    = require('./app/routes')
+    , user      = require('./app/routes/user')
+    , content   = require('./app/routes/content')
+    , error    = require('./system/error')
     , path      = require('path')
 
 // assign variables

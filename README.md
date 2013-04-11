@@ -14,7 +14,7 @@ This repository contains seed file structure and code providing massive advantag
 
 Here is list of all resources with used version that have been utilized in current bundle along with links to code of those resources.
 
-* [Angular](https://github.com/angular/angular.js)
+* [Angular Seed](https://github.com/angular/angular-seed)
 * [NodeJS](https://github.com/joyent/node)  ( 3.1.1 )
 * [Express](http://expressjs.com/)
 * [Twitter Bootstrap](http://twitter.github.io/bootstrap/) ( 2.3.1 )
