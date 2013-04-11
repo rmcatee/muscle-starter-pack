@@ -1,10 +1,10 @@
 var
 // load module dependencies
-      express     = require('express')
+      express   = require('express')
     , routes    = require('./app/routes')
     , user      = require('./app/routes/user')
     , content   = require('./app/routes/content')
-    , error    = require('./system/error')
+    , error     = require('./system/error')
     , path      = require('path')
 
 // assign variables
@@ -13,7 +13,7 @@ var
 
 // all environments
 app.set('port', process.env.PORT || 3001);
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/app/views');
 app.set('view engine', 'ejs');
 app.use(express.favicon());
 app.use(express.logger('dev'));
